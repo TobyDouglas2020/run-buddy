@@ -72,12 +72,13 @@ footer a {
 /* Hero Style Start */
 
 .hero {
-  background-image: url("../../images/hero.bg.jpg");
+  background-image: url("../../images/flipped-hero-image.jpg");
   height: 600px;
   background-image: cover;
   background-position: center;
-  padding: 60px;
-  background-image: url("../../images/hero-bg.jpg");
+
+ 
+  
 }
 
 
@@ -266,12 +267,8 @@ margin-top: 10px;
        
        /* privacy policy start */
        /* homepage hero */
-       .hero {
-         margin: 20px;
-         background-color: white;
-         font-size: 20px;
-         color: blue;
-       }
+       
+       
 
        /* secondary page hero */
        .Hero-Secondary {
