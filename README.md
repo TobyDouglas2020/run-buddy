@@ -1,2 +1,14 @@
-# run-buddy
-Working on adding develpment areas to work on before production
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [Toby Douglas]
