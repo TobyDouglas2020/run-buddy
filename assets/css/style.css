@@ -216,7 +216,7 @@ margin-top: 10px;
 
 
   .contact {
-    text-align: center;
+    text-align: cover;
     background: #024e76;
   }
   .section-title {
@@ -250,17 +250,10 @@ margin-top: 10px;
      font-size: 32px;
    }
 
-   .contact-info p, .contact-info address {
-     margin: 20px 0;
-     line-height: 1.5;
-     font-size: 20px;
-     font-style: normal;
-     font: white;
-     }
+   
 
-     .contact-info a {
-         color: #39a6b2;
-       }
+     
+       
 
 
        /* reach out ends */    
