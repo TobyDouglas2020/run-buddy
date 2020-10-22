@@ -15,6 +15,13 @@
   padding: 20px 35px;
   background-color: #39a6b2;
   flex: space-around;
+  background-attachment: fixed;
+  background-position: 80%;
+  position: -webkit-sticky;
+  position: sticky; top: 0;
+  background-image: url("../../images/flipped-hero-image.jpg");
+  background-image: cover;
+  
 
 }
  .h1 {
@@ -43,10 +50,19 @@
   list-style: none;
 }
 
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
 .header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 .header h1 {
   font-weight: bold;
@@ -92,6 +108,10 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  height: 400;
+  width: 10;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 
@@ -103,6 +123,8 @@
   top: 120px;
   width: 40%;
   margin: 3.5%;
+  border-radius: 15px;
+ 
 }
 
 .hero-cta {
@@ -119,7 +141,21 @@
 }
 .hero-form p {
   margin: 5px 0 15px 0;
+  border-radius: 15px;
 }
+
+.form-input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
+.contact-form input:focus, .contact-form textarea {
+
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+
+}
+
 .form-input {
   border: 1px solid #024e76;
   display: block;
@@ -137,8 +173,14 @@
   background-color: #024e76;
   border: none;
   padding: 10px 20px;
-  font-size: 16px
-}
+  font-size: 16px;
+  border-radius: 15px;
+  }
+  .hero-form button:hover {
+    background-color: #39a6b2;  
+  }
+
+
 
 .intro h2 {
   font-size: 55px;
@@ -161,6 +203,14 @@
 
 .steps {
   background: #fce138;
+    }
+    .step:nth-child(even) {
+      border-bottom: 1px solid #39a6b2;
+      
+    }
+
+    .step:last-child {
+      border-bottom: none;
     }
 
     .step {
@@ -230,7 +280,7 @@ flex: 1 30%;
 /* meet the trainers begins */
 
 .trainers {
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -307,6 +357,7 @@ flex: 1 30%;
       width: 100%;
       margin-bottom: 15px;
       margin-top: 5px;
+      border-radius: 15px;
     
     }
 
@@ -318,6 +369,7 @@ flex: 1 30%;
       text-align: center;
       padding: 15px 0;
       font-size: 16px;
+      border-radius: 15px;
     }
 
     .contact-info > * {
@@ -427,6 +479,10 @@ flex: 1 30%;
   header {
     padding-bottom: 0;
     justify-content: center;
+     background-image: url("../../images/flipped-hero-image.jpg");
+  background-image: cover;
+  background-position: center;
+  position: relative;
   }
 
   header h1 {
@@ -453,6 +509,7 @@ flex: 1 30%;
 
 .hero-cta, .hero-form {
   width: 100%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-cta {
@@ -518,7 +575,7 @@ flex: 1 30%;
 
   * media qury for mobile phones and smaller */
 @media screen and (max-width: 575px) {
-  
+}
   .hero-form button {
     width: 100%;
   }
@@ -546,7 +603,6 @@ flex: 1 30%;
   .contact-form {
     order: 3;
   }
-}
 
 .service-grid-item.both {
   grid-column: 2 / span 2;
@@ -566,4 +622,13 @@ flex: 1 30%;
 .grid-head, .grid-price, .service-grid-item.cancel {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.some-class {
+  text-shadow: 5px 10px 15px black;
+  box-shadow: 5px 10px 15px black;
+}
+
+button {
+  background: white;
 }
